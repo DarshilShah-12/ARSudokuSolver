@@ -33,11 +33,16 @@ I applied a perspective transform here to get a cleanly cropped image of the sud
 
 **5. Crop Digit**  
 <img src="visual_media/original_digit.jpg" height=300/>  
-I applied a perspective transform here to get a cleanly cropped image of the sudoku board. I could have directly cropped it as well; however, with a perspective transform, I can also correct the cropped image to appear completely flat even if the original image has uneven depth across the board.
+It is now easy for me to divide the previous image into 9 rows and 9 columns to process each cell individually. This is an example of one such cell. There is still a lot of noise within the image accompanying the digit 1. To minimize the risk of misclassification, I apply cleansing techniques such as flood filling, erosion and dilation to remove these islands of noise in the center and on the edges of the image. I also try to recenter the image so that most of the data lies in the middle, as that is the type of input data the classifier was trained with.
 
-**5. Clean Digit**  
+**6. Clean Digit**  
 <img src="visual_media/cleaned_digit.jpg" height=300/>  
-I applied a perspective transform here to get a cleanly cropped image of the sudoku board. I could have directly cropped it as well; however, with a perspective transform, I can also correct the cropped image to appear completely flat even if the original image has uneven depth across the board.
+With a much cleaner image, the probably of correct classification is much higher.
 
+**7. Populate Empty Cells**  
+<img src="visual_media/6_resize_to_fit_on_input_image.jpg" height=300/>  
+Most of the difficult work is now complete. I am simply populating empty cells with the required digits here.
 
-# Disclaimer
+**8. Augment New Board**  
+<img src="visual_media/7_final_image.jpg" height=300/>  
+As I know the coordinates of the rectangle we cropped earlier, I just replace that subsection of the original image with this new board.
