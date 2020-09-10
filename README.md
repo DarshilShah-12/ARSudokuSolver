@@ -3,8 +3,8 @@ This is a basic augmented reality project I picked up to learn more about comput
 
 # Input / Output
 <p align="middle">
-  <img src="visual_media/1_input_image.jpg" height=310/>
-  <img src="visual_media/7_final_image.jpg" height=310/>
+  <img src="visual_media/1_input_image.jpg" height=325/>
+  <img src="visual_media/7_final_image.jpg" height=325/>
 </p>
 
 # Approach Overview
