@@ -1,5 +1,5 @@
 # ARSudokuSolver
-This is a basic augmented reality project I picked up to learn more about computer vision and gain experience using the OpenCV library in Python. Upon being shown an incomplete sudoku board on a camera through a live video feed, it augment the missing digits back onto the board in real-time. As I primarily wanted to focus on the computer vision part of this project, I used an existing sudoku solver developed by Alex Beals. That repo can be found here: https://github.com/dado3212/Sudoku-Solver.
+This is a basic augmented reality project I picked up to learn more about computer vision and gain experience using the OpenCV library in Python. Upon being shown an incomplete sudoku board on a camera through a live video feed, it augments the missing digits back onto the board in real-time. As I primarily wanted to focus on the computer vision part of this project, I used an existing sudoku solver developed by Alex Beals. That repo can be found here: https://github.com/dado3212/Sudoku-Solver.
 
 # Input / Output
 <p align="middle">
