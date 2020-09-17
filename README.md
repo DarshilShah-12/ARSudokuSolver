@@ -37,7 +37,7 @@ It is now easy for me to divide the previous image into 9 rows and 9 columns to 
 
 **6. Clean Digit**  
 <img src="visual_media/cleaned_digit.jpg" height=300/>  
-With a much cleaner image, the probably of correct classification is much higher.
+With a much cleaner image, the probability of correct classification is much higher.
 
 **7. Populate Empty Cells**  
 <img src="visual_media/6_resize_to_fit_on_input_image.jpg" height=300/>  
